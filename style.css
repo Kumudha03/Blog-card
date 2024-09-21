@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    align-content: center;
+    background-color: rgb(252, 214, 75);
+    height: 100vh;
+    font-family: "Roboto",sans-serif;
+}
+
+main{
+    margin:auto;
+    width: 20%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 8px 8px black;
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.learn{
+    margin-top: 20px;
+    font-weight: 700;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color:  rgb(252, 214, 75);
+}
+
+.avatar{
+    width: 40px;
+}
+
+span{
+    font-weight: 700;
+}
+
+.profile{
+   display: flex;
+   align-items: center;
+   gap: 20px; 
+}
+
+
+@media screen and (max-width:1025px) {
+    main{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    main{
+        width: 70%;
+    }
+}
